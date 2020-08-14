@@ -1,0 +1,307 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1{
+    color: #E6E6E6;
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+p{
+    color: #E6E6E6;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/*Navbar*/
+.navbar{
+    margin-bottom: 0 !important;
+    text-align: center;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  /*background-color: #00CED1!important;*/
+  color: #A7DBD8!important;
+  text-decoration: none;
+}
+
+.navbar .navbar-collapse{
+    text-align: center;
+}
+
+.navbar-brand {
+    text-align: center;
+    float: none !important;
+    margin: 0; 
+}
+
+.navbar-brand:hover{
+    color: #A7DBD8!important;
+}
+
+
+/*Project*/
+
+
+.all-project{
+    
+    background-color: #E6E6E6;
+
+}
+
+.header{
+    background-color: #1F2041;
+    margin: 0 40px;
+}
+
+.project-card{
+    padding: 30px 5%;
+    text-align: center;
+    background-color: #1F2041;
+    margin: 40px 40px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.project-card h1{
+    text-align: center;
+    color:#E6E6E6;
+}
+
+.project-card h2{
+    text-align: left;
+    color:#E6E6E6;
+}
+
+
+.project-card h3{
+    color:#E6E6E6;
+}
+
+.project-card h4{
+    text-align: left;
+    color:#E6E6E6;
+    font-size: 24px;
+
+}
+
+.project-card h5{
+    text-align: left;
+    color:#E6E6E6;
+    font-size: 22px;
+}
+
+.project-card p{
+    font-size: 20px;
+    padding: 10px 0;
+    color: #E6E6E6;
+    text-align: left;
+}
+
+
+.image{
+    text-align: center;
+    max-width: 500px;
+}
+
+.image-des{
+    text-align: center;
+    max-width: 500px;
+}
+
+table{
+    color: #E6E6E6;
+}
+
+th{
+    text-align: center;
+}
+
+.table{
+    width: auto;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: rgba(31, 32, 65, 0.8);
+}
+
+.short-descrip{
+    padding: 5px 0 10px;
+}
+
+.long-descrip, .long-descrip-two, .long-descrip-three, .long-descrip-four {
+    display: none;
+    margin-bottom: 30px;
+}
+
+
+.skill{
+    font-size: 16px;
+    font-weight: bold;
+    color: #E6E6E6;
+    background-color: #8E5572;
+    
+    border-radius: 50px;
+    float: left;
+    margin: 4px 4px;
+    padding: 4px 16px;
+
+}
+
+.skill-tag{
+    display: inline-block;
+    margin: 0 auto;
+
+}
+
+.link{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.link .fa{
+    margin: 0 8%;
+    opacity: 1;
+    color: white;
+    font-size: 6em;
+}
+
+a:hover{
+    color: #E6E6E6;
+    text-decoration: none;
+
+}
+
+.repo-link{
+    width: calc(100% - 30px);
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    background: rgba(31, 32, 65, 0.4);
+    -webkit-transition: opacity 0.3s; 
+    transition: opacity 0.3s;
+}
+
+
+
+.repo-link:hover{
+    opacity: 1;
+}
+
+
+
+.fa-expand{
+    cursor: pointer;
+    font-size: 20px;
+    float: right;
+    position: relative;
+    color: #E6E6E6;
+    margin: -10px -40px 0 0;
+}
+
+.fa-compress{
+    cursor: pointer;
+    font-size: 20px;
+    float: right;
+    position: relative;
+    color: #E6E6E6;
+    margin: -10px -40px 0 0;
+}
+
+.slide-up, .slide-up-two, .slide-up-three, .slide-up-four{
+    display: none;
+}
+
+
+
+@media (max-width: 992px) {
+    .image{
+        max-width: 350px;
+        margin-top: 30px;
+    }
+    .image-des{
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+    .repo-link-long-one{
+        
+        width: calc(100% - 90px);
+        height: 37%;
+        position: absolute;
+        opacity: 0;
+        background: rgba(31, 32, 65, 0.4);
+        -webkit-transition: opacity 0.3s; 
+        transition: opacity 0.3s;
+        margin-left: 20px;
+    }
+    .header{
+        margin: 0 20px;
+    }
+    .project-card{
+        margin: 40px 20px;
+    }
+    
+    .fa-expand{
+        margin: 0;
+    }
+    
+    .project-card p{
+        font-size: 15px;
+    }
+    
+    p{
+        font-size: 15px;
+    }
+    
+    .skill{
+        font-size: 14px;
+        font-weight: bold;
+        color: #E6E6E6;
+        background-color: #8E5572;
+            
+        border-radius: 50px;
+        float: left;
+    
+        margin: 4px 4px;
+        padding: 4px 16px;
+    
+    }
+    
+    .fa-compress{
+        margin: 0;
+    }
+    
+    .table{
+        display: block;
+    }
+    
+}
+
+
+.contact {
+    background: black;
+    text-align: center;
+}
+
+.contact .fa {
+    color: white;
+}
+
+.contact .fa:hover{
+    color: #A7DBD8;
+}

@@ -1,0 +1,192 @@
+html, body {
+    height: 100%;
+    padding-top: 25px;
+    margin: 0;
+}
+
+
+p, h1 {
+    margin: 0;
+}
+
+
+.h1, h1{
+    font-size:50px;
+    padding-top: 300px;
+    padding-bottom: 502px;
+}
+
+.exptitle{
+	color: black;
+}
+
+/*NAV BAR*/
+.navbar{
+    margin-bottom: 0 !important;
+    text-align: center;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+
+.nav > li > a:hover, .nav > li > a:focus {
+  /*background-color: #00CED1!important;*/
+  color: #A7DBD8!important;
+  text-decoration: none;
+}
+
+
+.navbar .navbar-collapse{
+    text-align: center;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-brand {
+    text-align: center;
+    float: none !important;
+    margin: 0; 
+    color: #F7FFF7;
+}
+
+.navbar-brand:hover{
+    color: #A7DBD8!important;
+}
+
+ 
+
+/*About Me Profile*/
+
+.circular-profile{
+    margin-top : 25px;
+}
+
+.circular-profile img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.afternav{
+    margin-top: 100px;
+}
+
+.about-me {
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+.abouttitle{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+h2{
+  margin: 0;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+
+h4{
+    font-size: 25px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+h5{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+
+p{
+     font-size: 18px;
+}
+
+.alignright{
+    text-align: left;
+    margin-left: 5px;
+}
+
+.aboutsection{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Ribbons */
+
+.ribbon{
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+/* Custom styles */
+
+.ribbon.sticky{
+  position: fixed;
+}
+
+.ribbon.shadow{
+      box-shadow: 1px #000;  
+}
+
+/* Ribbon Colors */
+
+.ribbon.blue{background: #1F2041;}
+.ribbon.purple{background: #4B3F72;}
+.ribbon.charcol{background: #2E4057;}
+.ribbon.seablue{background: #177E89;}
+.ribbon.green{background: #44AF69;}
+
+.cs-cw,
+.math-cw{
+    display: none;
+}
+
+
+/*Contact*/
+
+.contact {
+    background: black;
+    text-align: center;
+
+}
+
+.contact .fa {
+    color: white;
+}
+
+.contact .fa:hover{
+    color: #A7DBD8;
+}
+
+/* Mobile Portrait*/
+@media (max-height: 480px) {
+    .h2{
+        margin: 0;
+    }
+    .title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px){
+    .h2{
+        margin: 0;
+    }
+    .title {
+        font-size: 20px;
+    }
+}
